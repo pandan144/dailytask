@@ -1,0 +1,21 @@
+.banner{
+	background-color:#fff0e6;
+	border-bottom:1px solid #ccc;
+}
+.rowicon{
+ font-size:3rem;
+ color:#ff8533;
+}
+.services{
+	background-color:#fff0e6;
+	text-align:center;
+}
+.ser{
+	margin:auto;
+	text-align:center;
+}
+.ser-icon{
+	font-size:2rem;
+	color:#ff8533;
+	margin:auto;
+}
