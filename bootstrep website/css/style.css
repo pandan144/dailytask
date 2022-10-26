@@ -50,3 +50,160 @@
 /* .prot-img:hover .prothover{ 
 	opacity:1;
 }*/
+.anime{
+	   padding:2rem;
+}
+summary{
+	       font-weight:900;
+}
+summary:hover{
+	           color:orange;
+}
+.faq{
+	  background-color:#FEF8F5;
+}
+/* portfoloi section ends */
+
+/* team section starts */
+
+.team .row{
+	        padding:0 !important;			
+}
+.icon-5{
+		  opacity:0;
+		  position:absolute;
+		  content:"";
+		  background-color:rgba(31, 53, 72, 0.6);
+		  top:0;
+		  bottom:0;
+		  left:0;
+		  right:0;	
+}
+.team .row{
+	        position:relative;
+			transform:scale(1);
+			overflow:hidden;
+}
+.team .row:hover .icon-5{
+	                      opacity:1;
+						  color:white;
+}
+/* team section ends */
+
+/* client section starts */
+
+.client-1{
+	       background-color:#FEF8F5;
+		   width:100%;
+}
+.client .row{
+	          width:100%;
+}
+.client img{
+	          width:100%;
+			  padding:2rem;
+}
+/* client section ends */
+
+/* contact section starts */
+
+.form-1 input{
+			    width:100%;
+}
+.form input{
+	         width:105%;
+}
+.form-1 textarea{
+			    width:100%;
+				height:40vh;
+}
+.contact-1 iconify-icon{
+	                    display:flex;
+						border-radius:50%;
+						color:orange;
+						font-size:1.5rem;
+						border:1px solid #fdf1ec;
+						background-color:#fdf1ec;
+						justify-content:center;
+						align-items:Center;
+						height:44px;
+						width:44px;
+}
+.contact-1 .shadow{
+	               border-bottom:3px solid #EB5D1E;
+				   border-top:3px solid #EB5D1E;
+}
+.contact-1 .row:hover iconify-icon{
+	                                background-color:#EB5D1E;
+									color:white;
+	             
+}
+.shadow .col{
+	          display:flex;
+}
+.btn-5{
+	 display:flex;
+	 justify-content:center;
+}
+
+/* form section end */
+/* join section starts */
+
+.join{
+	background-color:#fdf1ec;
+}
+.input{
+	width:50%;
+}
+.input-group{
+	        margin:auto;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			align-items:center;
+			
+}
+.btn-6{
+	    background-color:#C54811;
+		border:none;
+		color:white;
+		height:8vh;
+}
+.input-group input{
+				   border:none;
+}
+.foot-1 li a{
+	       text-decoration:none;
+		   color:black;
+}
+.foot-1 iconify-icon{
+	                  color:#EB5D1E;
+}
+.foot-1 a:hover{
+	             color:#EB5D1E;
+}
+.foot-1 .icon-7 iconify-icon{
+	                        height:44px;
+							width:44px;
+							display:flex;
+							border-radius:50%;
+							justify-content:center;
+							align-items:center;
+							margin:auto;
+							color:white;
+							background-color:#EB5D1E;
+}
+.icon-7 li{
+	       margin:0.2rem;
+}
+.foot-1{
+	    width:25%;
+		font-size: 14px;
+        line-height: 30px;
+}
+.footer{
+	    background-color:#FEF8F5;
+}
+.gray{
+      color:#EB5D1E;	
+}
